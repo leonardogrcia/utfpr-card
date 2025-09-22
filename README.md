@@ -1,69 +1,80 @@
-# React + TypeScript + Vite
+# 🍽️ RU SmartCard - Cartão Digital Inteligente para Restaurantes Universitários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Desenvolvido por:** Leonardo O. Garcia  
+**Instituição:** Universidade Tecnológica Federal do Paraná (UTFPR)  
+**Status:** Em desenvolvimento 🚧  
+**Licença:** Todos os direitos reservados - patente em processo
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Descrição do Projeto
 
-## Expanding the ESLint configuration
+O **RU SmartCard** é uma solução inovadora que visa modernizar o acesso aos Restaurantes Universitários (RUs), substituindo o tradicional cartão de papel por um **cartão inteligente com tecnologia NFC**.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Com esse novo sistema, o processo de controle de refeições se torna muito mais eficiente, seguro e sustentável. O objetivo principal é eliminar filas, automatizar o acesso e tornar a experiência dos estudantes mais prática e rápida.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 💡 Motivação
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+O modelo atual de controle de acesso ao RU é ultrapassado, sujeito a fraudes e responsável por grandes filas nos horários de pico. O projeto propõe uma alternativa digital, segura e escalável.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Funcionalidades Propostas
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 📱 **Recarregamento de créditos via aplicativo mobile**
+- 📶 **Validação de entrada no RU via NFC (cartão por aproximação)**
+- ⏱️ **Redução significativa das filas**
+- ♻️ **Sustentabilidade com eliminação do uso de papel**
+- 🔒 **Segurança com autenticação e criptografia dos dados**
+
+---
+
+## 🧱 Tecnologias Envolvidas
+
+- Cartões com **NFC (Near Field Communication)**
+- App mobile (em desenvolvimento - possível uso de Flutter ou React Native)
+- Backend para gerenciamento de créditos e autenticação (Node.js, Firebase ou similar)
+- Integração com sistemas universitários (via API ou banco de dados)
+
+---
+
+## 🔐 Direitos e Propriedade Intelectual
+
+Este projeto está em desenvolvimento e **em processo de patenteamento**.  
+Qualquer reprodução, uso comercial ou modificação sem autorização está **expressamente proibida**.
+
+> **© Leonardo O. Garcia - Todos os direitos reservados.**
+
+---
+
+## 🤝 Colaboração & Feedback
+
+O projeto ainda está em fase de prototipagem e testes.  
+📬 **Sugestões, ideias e feedbacks são muito bem-vindos!**
+
+Se você tem interesse em contribuir ou discutir soluções semelhantes, sinta-se à vontade para abrir uma issue ou entrar em contato.
+
+---
+
+## 📍 Roadmap
+
+- [x] Ideação e levantamento de problemas atuais
+- [x] Protótipo do cartão com NFC
+- [ ] Desenvolvimento do app de recarga
+- [ ] Backend para gerenciamento de créditos
+- [ ] Testes pilotos com alunos
+- [ ] Validação com a universidade
+- [ ] Registro oficial de patente
+
+---
+
+## 📫 Contato
+
+- Email: leonardocia.g@gmail.com 
+- LinkedIn: https://www.linkedin.com/in/leonardo-garcia-a9620b197/
+
+---
+
+**UTFPR | Engenharia | Inovação | Futuro**
